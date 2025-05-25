@@ -1,0 +1,172 @@
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 180px; /* Large screen padding */
+    background-color: #ffffff;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: -30px;
+  }
+  
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ffa500;
+    border-radius: 50%;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: -70px;
+  }
+  
+  .stat-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number {
+    margin-top: 0px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #1f1f2e;
+    margin-left: 50px;
+  }
+  
+  .labels {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -35px;
+  }
+  
+  .label-upper {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+  
+  .label-lower {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f1f2e;
+    margin-top: -5px;
+  }
+  
+  /* RESPONSIVE DESIGN ADJUSTMENTS */
+  @media (max-width: 1024px) {
+    .stats-section {
+      padding: 30px 50px;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: -100px;
+    }
+  
+    .stat-item {
+      flex-direction: row;
+    margin-left: -110px;
+      justify-content: flex-start;
+      width: 100%;
+      margin-right: 0;
+      
+    }
+  
+    .icon-circle {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  
+    .number {
+        
+      font-size: 36px;
+      margin-bottom: 1px;
+      
+    }
+  
+    .labels {
+        
+      margin-left: 15px;
+      margin-top: 0;
+     
+    }
+  
+    .label-upper {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  
+    .label-lower {
+      font-size: 18px;
+      margin: 10px;
+      margin-top: 1px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .stats-section {
+      padding: 20px;
+      gap: 15px;
+    }
+  
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      
+    }
+  
+    .number {
+      font-size: 30px;
+    }
+  
+    .label-upper {
+      font-size: 12px;
+    }
+  
+    .label-lower {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stats-section {
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    .stat-item {
+      flex-direction: column;
+     
+    }
+  
+    .icon-circle {
+      margin: 0 auto;
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+    }
+  
+    .number {
+      font-size: 28px;
+      margin-left: 0;
+    }
+  
+    .labels {
+      margin: 0;
+    }
+  
+    .label-upper {
+      font-size: 12px;
+    }
+  
+    .label-lower {
+      font-size: 14px;
+    }
+  }
+  

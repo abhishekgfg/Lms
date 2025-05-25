@@ -1,0 +1,242 @@
+.repair-services {
+    padding: 80px 200px; /* Large screen padding */
+    background-image: url('../Image/service-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #ff6600;
+    font-weight: 600;
+  }
+  
+  .title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #1f1f2e;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  
+  .more-service-button {
+    padding: 12px 25px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 90px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    /* Prevent grid overflow */
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure full-width on small screens */
+  }
+  
+  .highlight-card {
+    background-color: rgb(255, 113, 5);
+    border: 2px solid #eae0da;
+  }
+  
+  .highlight-card .service-icon {
+    color: white;
+  }
+  
+  .highlight-card .service-title {
+    color: white;
+  }
+  
+  .highlight-card .service-type {
+    color: white;
+  }
+  
+  .service-icon {
+    margin-top: 30px;
+    font-size: 50px;
+    color: #2371ff;
+    margin-bottom: 10px;
+  }
+  
+  .service-type {
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  .service-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .service-image {
+    position: relative;
+    width: 900px;
+    height: 545px;
+  }
+  
+  .service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .service-details {
+    width: 250px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .service-link {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Responsive Fixes for Mobile and Tablet */
+  
+  @media (max-width: 1024px) {
+    .repair-services {
+      padding: 50px;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .title {
+      font-size: 48px;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+  
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .service-card {
+      width: 80%; /* Full width on smaller screens */
+    }
+  
+    .service-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .more-service-button {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .repair-services {
+      padding: 30px;
+    }
+  
+    .title {
+      font-size: 36px;
+    }
+  
+    .more-service-button {
+      font-size: 16px;
+    }
+  
+    .service-icon {
+      font-size: 40px;
+    }
+  
+    .service-type {
+      font-size: 14px;
+    }
+  
+    .service-title {
+      font-size: 18px;
+    }
+  
+    .service-details {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .repair-services {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .service-icon {
+      font-size: 30px;
+    }
+  
+    .service-type {
+      font-size: 12px;
+    }
+  
+    .service-title {
+      font-size: 16px;
+    }
+  
+    .service-details {
+      width: 180px;
+    }
+  }
+  

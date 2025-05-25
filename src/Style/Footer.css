@@ -1,0 +1,107 @@
+.footer {
+   
+    background: linear-gradient(to right, #313132, #3d3333);
+    color: #fff;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-about {
+    max-width: 300px;
+  }
+  
+  .footer-logo img {
+    width: 120px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* Make logo round */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  }
+  
+  .footer-about p {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #222;
+    color: #ffcc00;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .footer-links h3, .footer-contact h3 {
+    color: #ffcc00;
+    margin-bottom: 15px;
+  }
+  
+  .footer-links ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li, .footer-contact ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  .footer-contact ul li svg {
+    margin-right: 10px;
+    color: #ffcc00;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #222;
+    padding-top: 15px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom .highlight {
+    color: #ffcc00;
+  }
+  
+  .footer-bottom-links {
+    margin-top: 10px;
+  }
+  
+  .footer-bottom-links a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-bottom-links a:hover {
+    color: #ffcc00;
+  }
+  

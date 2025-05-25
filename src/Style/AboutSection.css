@@ -1,0 +1,275 @@
+/* Default desktop styles - no changes */
+.about-section {
+    padding: 80px 200px;
+    background-color: #f5f8fc;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .left-image {
+    width: 50%;
+    height: 570px;
+    margin-left: -120px;
+  }
+  
+  .right-image {
+    width: 50%;
+    height: 50%;
+    margin-right: 80px;
+  }
+  
+  .stats-box {
+    background-color: #1f1f2e;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: -250px;
+    width: 40%;
+    margin-left: 110px;
+    height: 215px;
+  }
+  
+  .stats-box h2 {
+    margin-top: 1px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -40px;
+  }
+  
+  .stats-box p {
+    margin-left: 19px;
+    font-size: 60px;
+    margin-top: -50px;
+    font-weight: 600;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  
+  .subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #ff6600;
+    font-weight: 500;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #1f1f2e;
+    margin: 10px 0 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.8;
+    font-weight: 500;
+  }
+  
+  .quote-box {
+    background-color: #e9f0fa;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f1f2e;
+    margin: 20px 0;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .read-more-btn {
+    padding: 12px 25px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f1f2e;
+  }
+  
+  .user-title {
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  /* Responsive Design */
+  
+  /* For Tablets - Stack right image below left image */
+  @media (max-width: 1024px) {
+    .about-section {
+      padding: 50px;
+    }
+  
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .left-section {
+      width: 100%;
+    }
+  
+    .image-wrapper {
+      flex-direction: column;
+    }
+  
+    .left-image, .right-image {
+      width: 100%;
+      margin: 0;
+      height: auto;
+    }
+  
+    .stats-box {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .stats-box h2,
+    .stats-box p {
+      font-size: 60px;
+      margin: 0;
+    }
+  
+    .subtitle-wrapper {
+      margin-top: 20px;
+    }
+  
+    .logo {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  /* For Mobile Devices - Keep the same stacking order */
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 30px;
+    }
+  
+    .left-image, .right-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .stats-box {
+      padding: 10px;
+    }
+  
+    .stats-box h2 {
+      font-size: 60px;
+    }
+  
+    .logo {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .user-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .read-more-btn {
+      width: 100%;
+    }
+  }
+  
+  /* For Small Mobile Devices - Reduced padding and font sizes */
+  @media (max-width: 480px) {
+    .about-section {
+      padding: 20px;
+    }
+  
+    .about-content {
+      gap: 20px;
+    }
+  
+    .left-image, .right-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .stats-box {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .stats-box h2,
+    .stats-box p {
+      font-size: 60px;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    .read-more-btn {
+      font-size: 16px;
+    }
+  
+    .logo {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
