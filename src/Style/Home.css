@@ -11,14 +11,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: #1d284b;
+    background: #367f03;
 }
 
 .no-extra-charges {
     display: flex;
     align-items: center;
     font-size: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -112,7 +112,7 @@ margin-left: 550px;
 .contact-item {
     display: flex;
     align-items: center;
-    color: #333;
+    color: #170e0e;
     font-size: 20px;
     margin-top: 0px;
     gap: 1px;
@@ -136,7 +136,7 @@ margin-left: 550px;
 }
 .con{
     font-size: 16px;
-    color: #7c7a7a;
+    color: #0a0909;
     
 }
 
@@ -147,11 +147,12 @@ margin-left: 550px;
 
 .contact-item p:last-child {
     margin: 0;
-    font-weight: bold;
+    font-weight:normal;
 }
 
 /* Hero Section */
 .hero {
+    
     background-position: center;
     background-size: cover;
     color: white;
@@ -178,7 +179,7 @@ margin-left: 550px;
 
 .year {
     font-size: 27px;
-    color: #ff6600;
+    color: #2b8011;
     font-weight: 40px;
 
 }
@@ -223,7 +224,7 @@ h1 {
     font-weight: bold;
     border: none;
     border-radius: 25px;
-    background-color: #ff6600;
+    background-color: #38780c;
     color: white;
     cursor: pointer;
     transition: 0.3s;
