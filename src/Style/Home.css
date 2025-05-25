@@ -160,12 +160,15 @@ margin-left: 550px;
     position: relative;
     clip-path: ellipse(100% 85% at center top);
     height: 750px;
+   
+
 }
 
 
 .hero-content {
     max-width: 800px;
     margin: auto;
+
 }
 
 .since {
@@ -197,7 +200,7 @@ h1 {
 .herotxt{
     text-align: center;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -273,6 +276,10 @@ h1 {
         height: auto;
        
     }
+    .hero {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
     .top-bar .nav-links2 {
         flex-direction: column;
         border-right: none;
@@ -286,9 +293,13 @@ h1 {
     .hero {
         padding: 100px 0;
         height: 1000px;
+        
     }
     h1 {
         font-size: 30px;
+    }
+    .herotxt{
+        margin-right:10px ;
     }
 }
 
