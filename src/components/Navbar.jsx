@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import "../Style/Navbar.css";
-import logo from "../Image/logo.png"; // Add your logo image path
+import logo from "../Image/logo-eRVar-dC (1).svg"; // Add your logo image path
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
